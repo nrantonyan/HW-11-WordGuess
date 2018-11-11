@@ -5,12 +5,13 @@ function Word(word) {
     this.letters = [];
     this.complete = false;
 
-   
-    console.log(this.word);
+
+    for (let i = 0; i < this.word.length; i++) {
+        console.log(this.word[i]);    
+    }
 
 }
 
-var pick = new Word("halloween");
 
 
 
